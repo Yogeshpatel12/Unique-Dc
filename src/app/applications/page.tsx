@@ -14,6 +14,7 @@ export default function Page() {
         homePageText="Home"
         activePageText="applications"
         bgImg="/images/main-bg5.jpg"
+        shortText="Short description here"
       />
 
       <SpeakersThree />
