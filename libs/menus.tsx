@@ -18,27 +18,27 @@ export const menus = [
       },
       {
         label: "ELECTROMAGNETIC CLUTCHES",
-        link: "#",
+        link: "/products",
       },
       {
         label: "ELECTROMAGNETIC CLUTCH AND BRAKE COMBINATION",
-        link: "#",
+        link: "/products",
       },
       {
         label: "BRAKE MOTORS",
-        link: "#",
+        link: "/products",
       },
       {
         label: "TRANSFORMER AND RECTIFIER",
-        link: "#",
+        link: "/products",
       },
       {
         label: "CUSTOM PRODUCTS",
-        link: "#",
+        link: "/products",
       },
       {
         label: "A.C BRAKES AND TORQUE MODULATORS",
-        link: "#",
+        link: "/products",
       },
     ],
   },

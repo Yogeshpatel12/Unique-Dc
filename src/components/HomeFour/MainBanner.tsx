@@ -101,6 +101,21 @@ const MainBanner: React.FC = () => {
             
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/6.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
+            }}
+          >
+            
+          </div>
+        </SwiperSlide>
 
         {/* <SwiperSlide>
           <div
