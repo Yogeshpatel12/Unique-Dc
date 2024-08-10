@@ -30,14 +30,79 @@ const MainBanner: React.FC = () => {
           <div
             className="main-banner"
             style={{
-              backgroundImage: `url(https://unitorq.in/img/slide-1.jpg)`,
+              backgroundImage: `url(/images/1.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
+            }}
+          >
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/2.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
+            }}
+          >
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/3.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
+            }}
+          >
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/4.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
+            }}
+          >
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="main-banner"
+            style={{
+              backgroundImage: `url(/images/5.png)`,
+              // backgroundSize: 'contain',
+              // backgroundPosition: 'center',
+              // backgroundRepeat: 'no-repeat',
+              // height: '925px',
+              // width: '100%',
             }}
           >
             
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div
             className="main-banner"
             style={{
@@ -56,7 +121,7 @@ const MainBanner: React.FC = () => {
             }}
           >
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

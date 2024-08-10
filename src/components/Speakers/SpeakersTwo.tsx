@@ -13,25 +13,10 @@ interface SpeakersMember {
 
 const SpeakersMemberData: SpeakersMember[] = [
   {
-    image: "https://unitorq.in/img/certification/certificate-1.jpg",
+    image: "/images/certificate.jpg",
     name: "CE Certificate - EM Fail Safe Brakes",
   },
-  {
-    image: "https://unitorq.in/img/certification/certificate-2.jpg",
-    name: "CE Certificate - EM Normally Off Brakes",
-  },
-  {
-    image: "https://unitorq.in/img/certification/certificate-3.jpg",
-    name: "CE Certifications- EM. Clutch & Brake Combination",    
-  },
-  {
-    image: "https://unitorq.in/img/certification/certificate-4.jpg",
-    name: "Chamber Of commerce-Udaipur",   
-  },
-  {
-    image: "https://unitorq.in/img/certification/certificate-5.jpg",
-    name: "ISO Certificate",
-  },
+  
 ];
 
 const SpeakersTwo: React.FC = () => {
