@@ -8,8 +8,8 @@ export default function Page() {
     <>
       <Navbar />
       <MainBanner />
-      <Image src="images/mainpage.png" alt="about" width={1640} height={700} />
-      {/* <Image src="images/mainpage.png" alt="about" width={1640} height={700} /> */}
+      <Image src="images/mainpage1.png" alt="about" width={1640} height={700} />
+      <Image src="images/mainpage2.png" alt="about" width={1640} height={700} />
 
       <Footer />
     </>

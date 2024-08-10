@@ -21,8 +21,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Unique Dc Motor ",
-  description: "unique dc motor",
+  title: "Unique Dc Motor Brake",
+  description: "unique dc motor brake",
 };
 
 export default function RootLayout({

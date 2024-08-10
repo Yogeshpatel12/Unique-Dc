@@ -14,57 +14,63 @@ interface SpeakersMember {
 
 const SpeakersMemberData: SpeakersMember[] = [
   {
-    image: "https://unitorq.in/img/applications/auto-labelling-machines.jpg",
+    image: "/images/glassmachine.webp",
+    name: "Glass Making Machines",
+  },
+  {
+    image: "/images/autolabelling.jpg",
     name: "Auto Labelling Machines",
 
   },
+  
+  
   {
-    image: "https://unitorq.in/img/applications/bag-making-machines.jpg",
-    name: "Bag Making Machines",
-
-  },
-  {
-    image: "https://unitorq.in/img/applications/bottle-washing-machines.jpg",
+    image: "/images/bottlewashing.jpeg",
     name: "Bottle Washing Machines",
    
   },
   {
-    image: "https://unitorq.in/img/applications/brake-motors.jpg",
+    image: "/images/brakemotors.jpg",
     name: "Brake Motors",
     
   },
+  
   {
-    image: "https://unitorq.in/img/applications/coil-winding-machines.jpg",
+    image: "/images/washingmachine.jpg",
+    name: "Industrial Washing Machines",
+  },
+  {
+    image: "/images/coilwinding.jpg",
     name: "Coil Winding Machines",
   },
   {
-    image: "https://unitorq.in/img/applications/conveyors.jpg",
+    image: "/images/conveyors.jpg",
     name: "Conveyors",
   },
   {
-    image: "https://unitorq.in/img/applications/copy-lathes.jpg",
+    image: "/images/copylathes.jpeg",
     name: "Copy Lathes",
   },
   {
-    image: "https://unitorq.in/img/applications/cut-to-length-machineries.jpg",
+    image: "/images/cuttolength.jpg",
     name: "Cut to Length Machineries",
   },
   {
-    image: "https://unitorq.in/img/applications/filling-machineries.jpg",
+    image: "/images/fillingmachine.jpg",
     name: "Filling Machineries",
   },
   {
-    image: "https://unitorq.in/img/applications/glass-making-machines.jpg",
-    name: "Glass Making Machines",
+    image: "/images/bagmaking.jpg",
+    name: "Bag Making Machines",
+
   },
   {
-    image: "https://unitorq.in/img/applications/indexing-machineries.jpg",
+    image: "/images/indexingmachine.jpg",
     name: "Indexing Machineries",
   },
-  {
-    image: "https://unitorq.in/img/applications/industrial-washing-machines.jpg",
-    name: "Industrial Washing Machines",
-  },
+  
+  
+  
 ];
 
 const SpeakersThree: React.FC = () => {
