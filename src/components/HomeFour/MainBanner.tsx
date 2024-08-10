@@ -16,12 +16,12 @@ const MainBanner: React.FC = () => {
       />
 
       <Swiper 
-        navigation={true} 
+        navigation={false} 
         autoHeight={true}
         autoplay={{
-          delay: 6000,
-          disableOnInteraction: true,
-          pauseOnMouseEnter: true,
+          delay: 2000,
+          // disableOnInteraction: true,
+          // pauseOnMouseEnter: true,
         }}
         modules={[Navigation, Autoplay]} 
         className="home-slides"

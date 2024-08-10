@@ -5,60 +5,50 @@ import Link from "next/link";
 import Image from "next/image";
 import ContactInfo from "../ContactUs/ContactInfo";
 
+
 const Footer: React.FC = () => {
   return (
     <>
       <footer className="footer-area">
-      
         <div className="container">
           <div className="row">
-          <ContactInfo  />
+            <ContactInfo />
             <div className="col-lg-6 col-md-6">
               <div className="single-footer-widget">
                 <h3>REGISTERED & HEAD OFFICE</h3>
-               
 
                 <p className="location">
-                  <i className="icofont-google-map"></i> Electromatic Engineers 
-                  8-B Saheli Marg, Udaipur Rajasthan (India)
+                  <i className="icofont-google-map"></i><strong>Unique Dc Motor Brakes, </strong>
                 </p>
 
                 <Link href="/contact-us" className="contact-authority">
-                  <i className="icofont-phone"></i> 0294-2526933 (Landline)
-                  
+                  <i className="icofont-phone"></i> +91-7976958311
                 </Link>
                 <div className="pb-4">
-                <Link href="/contact-us" className="contact-authority">
-                  <i className="icofont-fax"></i> 0294-2526525 (Fax) 
-                </Link>
+                  <Link href="/contact-us" className="contact-authority">
+                    <i className="icofont-fax"></i>  +91-8233268311
+                  </Link>
                 </div>
 
                 <h3>Group Companies</h3>
                 <Link href="/contact-us" className="contact-authority">
-                Unitorq Engineers Pvt. Ltd.
-                Sytco Engineers         
-               
+                Unique DC Motor Brakes Pvt. Ltd.
                 </Link>
-                 
-                
               </div>
             </div>
-            
 
             <div className="col-lg-6 col-md-6">
               <div className="single-footer-widget">
                 <h3>REGIONAL OFFICES</h3>
                 <p>
-                Udaipur  :  Mr. Avinesh Gupta +91- 9829044330<br />
-                Delhi  :    Mr. Amardeep Singh  +91- 98102 55901<br />
-                Kolkatta  :  Mr. S.K. Chakraborty   +91- 94330 46308<br />
-                Maharasthtra  :  Mr. Yusuf  +91- 9764410000<br />
+                Udaipur : Power House , Gudli (313024). <br></br> Mr. Durgesh
+                Dangi +91- 8233268311, +91-7976958311
                 </p>
 
                 <ul className="social-links">
                   <li>
                     <a
-                      href="https://www.facebook.com/"
+                      href="https://www.facebook.com/share/c6nzSj9v37N4vnya/?mibextid=qi2Omg/"
                       className="facebook"
                       target="_blank"
                     >
@@ -76,7 +66,7 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/unique-dc-motor-brake-236860229?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDq3oOrLvTEuHt6v3SxM6jA%3D%3D"
                       className="linkedin"
                       target="_blank"
                     >
@@ -85,7 +75,7 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/uniquedcmotor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                       className="instagram"
                       target="_blank"
                     >
@@ -101,10 +91,10 @@ const Footer: React.FC = () => {
                 <div className="logo">
                   <Link href="/">
                     <Image
-                      src="https://unitorq.in/img/logo.png"
+                      src="/images/logo3.png"
                       alt="logo"
-                      width={120}
-                      height={38}
+                      width={190}
+                      height={60}
                     />
                   </Link>
                 </div>
@@ -128,7 +118,17 @@ const Footer: React.FC = () => {
                 </ul>
 
                 <div className="col">
-                        <p className="copyright">&copy; {new Date().getFullYear()} <strong>Unitorq</strong> Made with Love by <a href="#"><strong>Chavhan</strong></a>.</p>
+                  <p className="copyright">
+                    &copy; {new Date().getFullYear()} <strong>UNIQUE DC MOTOR BRAKES.</strong><br></br> {" "}
+                    Made with Love by{" "}
+                    <a href="#">
+                      <strong>Yogesh Patel</strong>
+                    </a>
+                    .
+                  </p>
+                </div>
+                <div>
+                  <p>All rights reserved.</p>
                 </div>
               </div>
             </div>

@@ -15,8 +15,8 @@ const ContactInfo: React.FC = () => {
             <div className="content">
               <h4>Phone</h4>
              
-              <p> +91-9001992823</p>
-              <p> +91-9001995895</p>
+              <p> +91-8233268311</p>
+              <p> +91-7976958311</p>
             </div>
           </div>
         </div>
@@ -29,9 +29,9 @@ const ContactInfo: React.FC = () => {
 
             <div className="content">
               <h4>E-mail</h4>
-              <p>sales@clutchesbrakes.com
+              <p>unique.electro<br></br>magneticbrake@gmail.com
            </p>
-              <p>     sales@unitorq.in  </p>
+              
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@ const ContactInfo: React.FC = () => {
 
             <div className="content">
               <h4>WEBSITE</h4>
-              <p> www.clutchesbrakes.com</p>
-              <p>www.sytcobrakes.com    </p>
+              <p> WWW.DCMOTORBRAKE.COM</p>
+              <p>WWW.DCMOTORBRAKE.COM  </p>
             </div>
           </div>
         </div>
