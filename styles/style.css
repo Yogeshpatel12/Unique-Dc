@@ -556,7 +556,7 @@ Navbar CSS
 Main Banner CSS
 =================================================*/
 .main-banner {
-  height: 100vh;
+  height: 920px;
   position: relative;
   z-index: 1;
   background-position: center center;

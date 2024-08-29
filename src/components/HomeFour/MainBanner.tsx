@@ -34,7 +34,7 @@ const MainBanner: React.FC = () => {
               // backgroundSize: 'contain',
               // backgroundPosition: 'center',
               // backgroundRepeat: 'no-repeat',
-              // height: '925px',
+              // height: '860px',
               // width: '100%',
             }}
           >
