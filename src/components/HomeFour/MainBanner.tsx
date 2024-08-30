@@ -17,7 +17,7 @@ const MainBanner: React.FC = () => {
 
       <Swiper 
         navigation={false} 
-        autoHeight={true}
+        autoHeight={false}
         autoplay={{
           delay: 2000,
           // disableOnInteraction: true,
